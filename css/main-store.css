@@ -1,0 +1,59 @@
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.middle-column {
+  width: 80%;
+  min-height: 800px;
+}
+.middle-column figure a {
+  text-decoration: none;
+  color: #000;
+}
+.middle-column figure a:hover {
+  opacity: 0.9;
+}
+/* blockquote {
+	margin-top: 30px;
+	background: #000;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+} */
+
+/* blockquote p {
+	color: #fff;
+	font-style: italic;
+	font-size: 33px;
+	margin: 0;
+} */
+/* blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: #fff;
+	margin: 0;
+	text-align: right;
+} */
+section > h2 {
+	background: #000;
+	font: 30px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 0 10px;
+	margin: 30px 0 0 0;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+figure figcaption {
+	font-size: 18px;
+}
+
+

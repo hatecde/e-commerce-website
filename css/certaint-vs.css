@@ -1,0 +1,130 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  margin-top: 30px;
+  /* margin-left: 20px; */
+  width: 20%;
+  float: left;
+}
+.middle-column {
+  width: 50%;
+  min-height: 800px;
+  position: relative;
+
+  /* margin: 0 30% 0 20%;  */
+}
+
+.right-column {
+  width: 30%;
+  margin-top: 60px;
+  float: right;
+}
+
+/* Left Column */
+.middle-column img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.middle-column img.active {
+  opacity: 1;
+}
+.product-description {
+  border-bottom: 1px solid #e1e8ee;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939e;
+  line-height: 36px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 32px;
+  color: #43484d;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939e;
+  line-height: 24px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-price span {
+  font-size: 26px;
+  font-weight: 400;
+  color: #43474d;
+  margin-right: 20px;
+}
+/* a.cart-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+} */
+button.shopping-cart-action {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-sizing: content-box;
+  border-radius: 5px;
+  font-family: Tahoma, sans-serif;
+}
+/* .cart-btn:hover {
+  background-color: #64af3d;
+} */
+/* .shopping-cart-action:hover {
+  background-color: #64af3d;
+} */
+a.cart-btn {
+  display: inline-block;
+  background-color: black;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all 0.5s;
+}
+/* button.cart-btn {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+} */
+.grnt {
+  display: inline-block;
+  background-color: #7dc855;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 35px;
+  margin-top: 10px;
+  margin-left: 100px;
+  /* margin-left: 50px; */
+  transition: all 0.5s;
+}
+.grnt:hover {
+  background-color: #64af3d;
+}

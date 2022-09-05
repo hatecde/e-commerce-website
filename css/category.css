@@ -1,0 +1,57 @@
+
+figure figcaption {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-column {
+  margin-top: 30px;
+  width: 20%;
+  float: left;
+}
+.middle-column {
+  width: 80%;
+  min-height: 800px;
+}
+.middle-column figure a {
+  text-decoration: none;
+  color: #000;
+}
+.middle-column figure a:hover {
+  opacity: 0.9;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 45px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.btn-search {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn-search:hover {
+  opacity: 0.8;
+}
+.label-1,.label-2 input[type=text]  {
+  margin: 8px 0 ;
+}
+.label-1,.label-2 {
+  /* font-size: 15px; */
+  font: 14px "Oswald",sans-serif;
+}
+
+
+
+
+

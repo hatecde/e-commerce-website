@@ -1,0 +1,13 @@
+
+#wrapper {
+    background-color: #f2f5fa;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 4px black outset;
+  }
+
+  p {
+    margin-left: 2px;
+  }
+  
+  
